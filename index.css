@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+display: flex;
+justify-content: space-between;
+height: 70px;
+padding-bottom: -5px;
+overflow: hidden;
+position: fixed;
+top: 0;
+width: 100%;
+background-color: #e4c0a8;
+box-shadow: 5px 5px 15px 3px rgba(41, 40, 40, 0.575);
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin-left: 20px;
+    padding-top:3px;
+    font-family: 'Nunito',Dancing Script;
+    font-size: 20px;
+}
+.Heart{
+    width:50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+h1{
+margin-left: 60px;
+margin-top: -50px;
+
+}
+ul{
+    display: inline-flex;
+    padding-top: 25px;
+    margin-right: 20px;
+}
+ul li{
+   list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+    color: black;
+    padding: 6px 15px;
+}
+ul li a:hover{
+    background-color: rgb(159, 35, 13);
+    color: aliceblue;
+    border-radius: 25px;
+    transition: background-color 0.1s;
+    cursor: pointer;
+}
+body {
+background-image: url(./Pics/Back1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.bt{
+    background-color: rgb(167, 38, 15);
+    width: 40%;
+    height: 41px;
+    color: aliceblue;
+    font-size: 24px;
+    font-family: Dancing Script ;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px 3px rgba(41, 40, 40, 0.575);
+    margin-left: 60px;
+}
+.bt:hover{
+    background-color: rgb(182, 42, 17);
+    color:white;
+   box-shadow: 5px 5px 15px 3px rgba(41, 40, 40, 0.575);
+   transition: 1.5s;
+}
+.book{
+    margin-left: 55em;
+    margin-top:-235px ;
+}
+.Quote{
+    width: 42%;
+    margin-top: 90px;
+    margin-left: 30px;
+    color: #f9d3ba;
+    text-shadow: 5px 5px 15px 3px rgba(41, 40, 40, 0.575);
+
+}
+p{
+    font-size: 90px;
+}
+.span{
+ margin-left: 25px   
+}
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background:#e4c0a8;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+.footer {
+    display: flex;
+    background-color: rgb(35, 35, 35);
+    width: 100%;
+    height: 30px;
+    color: aliceblue;
+    justify-content: space-around;
+    align-items: center;
+    padding-block: 1rm;
+    margin-top: 520px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+.footer h3{
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.about a{
+   
+    display: flex;
+    flex-direction: column;   
+}
+
+.help a{
+    display: flex;
+    flex-direction: column;   
+}
+
+
+.in i{
+ width: 30px;
+  margin-left: -30px;
+  color:  rgb(0, 0, 0);
+}

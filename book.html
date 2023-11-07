@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registraion Form</title>
+    <link rel="stylesheet" href="./book.css">
+    <link rel="stylesheet" href="<link rel=" preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href=<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Edu+TAS+Beginner&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+
+
+</head>
+
+<body>
+    <nav class="navbar" id="nav1">
+        <div class="header">
+            <img class="Heart" src="Pics/Heart.jpg" alt="">
+            <h1>Appointly</h1>
+
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <form id="from">
+        <div class="container">
+            <div class="title">Registraion Form :</u></div>
+            <form action="#">
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">First Name</span>
+                        <input type="text" placeholder="Patient's name" required id="firstname">
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Last Name</span>
+                        <input type="text" placeholder="Patient's name" id="lastname">
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Username</span>
+                        <input type="text" placeholder="@user1234" minlength="6" required id="username">
+                    </div>
+                    <div class="gender-details">
+                        <input type="radio" name="gender" id="dot-1">
+                        <input type="radio" name="gender" id="dot-2">
+                        <input type="radio" name="gender" id="dot-3" required>
+                        <span class="gender-title">Gender</span>
+                        <div class="category">
+                            <label for="dot-1">
+                                <span class="dot one"></span>
+                                <span class="gender">Male</span>
+                            </label>
+                            <label for="dot-2">
+                                <span class="dot two"></span>
+                                <span class="gender">Female</span>
+                            </label>
+                            <label for="dot-3">
+                                <span class="dot three"></span>
+                                <span class="gender">prefer not to say</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Phone </span>
+                        <input type="tel" id="phone" placeholder="(+91) 1234-567-890" pattern="[0-9]{4}[0-9]{3}[0-9]{3}"
+                            maxlength="10" title="Please input Indian number (+91)" require>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Email</span>
+                        <input type="email" placeholder="Enter your Email" required id="email">
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Date of Birth</span>
+                        <input type="date" placeholder="Select Date" required id="dateofbirth">
+                    </div>
+
+                    <div class="input-box">
+                        <span class="details">Maritial Status</span>
+                        <!-- <input type="text" placeholder="Select " required> -->
+                        <select id="Status" name="relationship" placeholder="Select" required>
+                            <option value="" selected>Select</option>
+                            <option value="au">Single</option>
+                            <option value="ca">Married</option>
+                            <option value="ca">Divorsed</option>
+                            <option value="ca">Widow</option>
+                            <option value="ca">Widower</option>
+                        </select>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">City <br></span>
+                        <input type="text" placeholder="Enter City">
+
+                    </div>
+                    <div class="input-box">
+                        <span class="details">State <br></span>
+                        <!-- <input type="text" placeholder="Select City"> -->
+                        <select id="country" name="country" placeholder="Select" required>
+                            <option value="" selected>Select</option>
+                            <option value="au">Andhra Pradesh</option>
+                            <option value="ca">Arunachal Pradesh</option>
+                            <option value="usa">Assam</option>
+                            <option value="usa">Bihar</option>
+                            <option value="usa">Chhattisgarh</option>
+                            <option value="usa">Goa</option>
+                            <option value="usa">Gujarat</option>
+                            <option value="usa">Haryana</option>
+                            <option value="usa">Himachal Pradesh</option>
+                            <option value="usa">Jharkhand</option>
+                            <option value="usa">Kerala</option>
+                            <option value="usa">Madhya Pradesh</option>
+                            <option value="usa">Maharashtra</option>
+                            <option value="usa">Manipur</option>
+                            <option value="usa">Meghalaya</option>
+                            <option value="usa">Mizoram</option>
+                            <option value="usa">Nagaland</option>
+                            <option value="usa">Mizoram</option>
+                            <option value="usa">Odisha</option>
+                            <option value="usa">Punjab</option>
+                            <option value="usa">Rajasthan</option>
+                            <option value="usa">Sikkim</option>
+                            <option value="usa">Tamil Nadu</option>
+                            <option value="usa">Telangana</option>
+                            <option value="usa">Tripura</option>
+                            <option value="usa">Uttar Pradesh</option>
+                            <option value="usa">Uttarakhand</option>
+                            <option value="usa">West Bengal</option>
+                        </select>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Department <br></span>
+
+                        <select id="text" name="country" placeholder="Select" required>
+                            <option value="" selected>Select</option>
+                            <option value="au"> Anesthesiology</option>
+                            <option value="ca">Cardiology</option>
+                            <option value="usa">Dermatology</option>sa">Sikkim</option>
+                            <option value="usa">Gastroenterology</option>
+                            <option value="usa">General medicine</option>
+                            <option value="usa">Neurology</option>
+                            <option value="usa">Obstetrics and gynecology (OB/GYN)</option>
+                            <option value="usa">Orthopedics</option>
+                            <option value="usa">Psychiatry</option>
+                            <option value="usa">Radiology</option>
+                            <option value="usa">Surgery</option>
+                        </select>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Date of Appointment</span>
+                        <input type="date" placeholder="Select Date" required id="appointment">
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Password</span>
+                        <input type="text" placeholder="Ex- User@2345 " minlength="8"
+                            pattern="(?=.\d)(?=.[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one  number and one uppercase
+                           and lowercase letter, and at least 8 or more characters" required id="password">
+                    </div>
+                    <div class="input-box">
+                        <span class="details"> Confirm Password</span>
+                        <input type="text" placeholder="Ex- User@2345 " minlength="8"
+                            pattern="(?=.\d)(?=.[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one  number and one uppercase
+                         and lowercase letter, and at least 8 or more characters" required id="conformpassword">
+                    </div>
+                    <!-- <div class="button">
+                        <input type="submit" value="Register" >
+                    </div> -->
+                    <a href="http://127.0.0.1:5500/index1.html"><button type="submit" class="reg"
+                            onclick="showsubmission()">Register</button></a>
+
+                    <!-- change -->
+                    <!-- <a href="http://127.0.0.1:5500/index1.html" class="reg"> Register</a> -->
+
+                </div>
+            </form>
+
+        </div>
+
+
+
+
+    </form>
+
+    <!-- change -->
+    <div id="submission" style="text-align: center ;margin-top: 15rem; display: none; ">
+        <h1 style="font-family: Dancing Script ;">Your appointment has been registered</h1> <br>
+
+        <a href="http://127.0.0.1:5501/index.html" style="text-decoration: none; padding: 10px; background-color:  #f0eae6;; color: rgb(159, 35, 13); font-size: 35px; border-radius: 10px; border: solid; "> Home</a>
+    </div>
+
+
+    <footer class="footer" id="footer1">
+
+        <div class="about">
+            <h3>ABOUT</h3>
+            <a href="Contact.html">Contact us</a>
+            <a href="About.html">About us</a>
+            
+        </div>
+
+      
+
+
+        <div class="icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+
+        </div>
+
+        <div class="credit"> &copy; copyright @ 2023 by <span>Rohit Panigrahi</span> | all rights reserved! </div>
+
+
+        </div>
+
+
+    </footer>
+</body>
+<script src="./script.js"></script>

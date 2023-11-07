@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+display: flex;
+justify-content: space-between;
+height: 70px;
+padding-bottom: -5px;
+overflow: hidden;
+position: fixed;
+top: 0;
+width: 100%;
+background-color: #e4c0a8;
+box-shadow: 5px 5px 15px 3px rgba(41, 40, 40, 0.575);
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin-left: 20px;
+    padding-top:3px;
+    font-family: 'Nunito',Dancing Script;
+    font-size: 20px;
+}
+.Heart{
+    width:50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+h1{
+margin-left: 60px;
+margin-top: -50px;
+
+}
+ul{
+    display: inline-flex;
+    padding-top: 25px;
+    margin-right: 20px;
+}
+ul li{
+   list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+    color: black;
+    padding: 6px 15px;
+}
+ul li a:hover{
+    background-color: rgb(159, 35, 13);
+    color: aliceblue;
+    border-radius: 25px;
+    transition: background-color 0.1s;
+    cursor: pointer;
+}
+body {
+background-color: #e4c0a8;
+}
+.abt{
+    margin-top: 150px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    
+}
+.pone{
+background-color: #a3a3a3;
+border-radius: 15px;
+padding: 15px;
+}
+.ptwo{
+    background-color: #a3a3a3;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-radius: 15px;
+    padding: 15px;
+}
+.pthree{
+    background-color: #a3a3a3;
+    border-radius: 15px;
+    line-height: 30px;
+    padding: 15px;
+}
+.pthree h3{
+    text-align: left;
+}
+p{
+    font-size: 20px;
+    font-family: serif;
+    font-style: italic;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background:#e4c0a8;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+.footer {
+    display: flex;
+    background-color: rgb(35, 35, 35);
+    width: 100%;
+    height: 30px;
+    color: aliceblue;
+    justify-content: space-around;
+    align-items: center;
+    padding-block: 1rm;
+    margin-top: 100px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+.footer h3{
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.about a{
+   
+    display: flex;
+    flex-direction: column;   
+}
+
+.help a{
+    display: flex;
+    flex-direction: column;   
+}
+
+
+.in i{
+ width: 30px;
+  margin-left: -30px;
+  color:  rgb(0, 0, 0);
+}
